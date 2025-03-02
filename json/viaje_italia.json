@@ -1,0 +1,192 @@
+{
+  "viaje": {
+    "titulo": "Viaje a Italia 2025",
+    "fechas": {
+      "salida": "10-05-2025",
+      "llegada": "11-05-2025",
+      "regreso": "24-05-2025"
+    },
+    "vuelos": {
+      "ida": {
+        "origen": "Buenos Aires (AEP)",
+        "escala": "São Paulo (GRU)",
+        "destino": "Milán (MXP)",
+        "horario_salida": "10-05-2025 11:45",
+        "horario_llegada": "11-05-2025 10:15",
+        "imagen": "assets/img/avionlatam.jpg"
+      },
+      "regreso": {
+        "origen": "Milán (MXP)",
+        "escala": "São Paulo (GRU)",
+        "destino": "Buenos Aires (AEP)",
+        "horario_salida": "24-05-2025 13:00",
+        "horario_llegada": "25-05-2025 10:30",
+        "imagen": "assets/img/avionlatam2.jpg"
+      }
+    },
+    "alojamiento": [
+      {
+        "imagen": "assets/img/milan.jpg",
+        "ciudad": "Milán",
+        "check_in": "2025-05-11",
+        "check_out": "2025-05-13",
+        "noches": 2
+      },
+      {
+        "ciudad": "Roma",
+        "check_in": "2025-05-13",
+        "check_out": "2025-05-17",
+        "noches": 4
+      },
+      {
+        "ciudad": "Nápoles",
+        "check_in": "2025-05-17",
+        "check_out": "2025-05-20",
+        "noches": 3
+      },
+      {
+        "ciudad": "Venecia",
+        "check_in": "2025-05-20",
+        "check_out": "2025-05-22",
+        "noches": 2
+      },
+      {
+        "ciudad": "Florencia",
+        "check_in": "2025-05-22",
+        "check_out": "2025-05-24",
+        "noches": 2
+      }
+    ],
+    "itinerario": [
+      {
+        "fecha": "2025-05-11",
+        "ciudad": "Milán",
+        "imagen": "assets/img/milan.jpg",
+        "actividades": [
+          "Llegada al Aeropuerto MXP",
+          "Traslado al centro de Milán",
+          "Visita al Duomo de Milán",
+          "Recorrido por Galleria Vittorio Emanuele II",
+          "Paseo por Castillo Sforzesco y Parco Sempione"
+        ]
+      },
+      {
+        "fecha": "2025-05-12",
+        "ciudad": "Milán",
+        "imagen": "assets/img/milan.jpg",
+        "actividades": [
+          "Explorar el barrio Porta Nuova y Piazza Gae Aulenti",
+          "Opcional: Excursión a Lago di Como",
+          "Cena en Brera o Navigli"
+        ]
+      },
+      {
+        "fecha": "2025-05-13",
+        "ciudad": "Roma",
+        "traslado": "Tren Milán - Roma (Italo)",
+        "actividades": ["Piazza Navona", "Panteón", "Fontana di Trevi"]
+      },
+      {
+        "fecha": "2025-05-14",
+        "ciudad": "Roma",
+        "evento_especial": "Cumpleaños de Mariela 🎂",
+        "actividades": [
+          "Colosseo",
+          "Foro Romano",
+          "Palatino",
+          "Cena romántica en rooftop con vista al Vaticano o Coliseo"
+        ]
+      },
+      {
+        "fecha": "2025-05-15",
+        "ciudad": "Roma",
+        "actividades": [
+          "Museos Vaticanos",
+          "Capilla Sixtina",
+          "Basílica de San Pedro",
+          "Recorrido por Trastevere"
+        ]
+      },
+      {
+        "fecha": "2025-05-16",
+        "ciudad": "Roma",
+        "actividades": [
+          "Opción: Día de descanso y paseo por Villa Borghese",
+          "Opción: Excursión a Ostia Antica o Vía Appia Antigua y Catacumbas"
+        ]
+      },
+      {
+        "fecha": "2025-05-17",
+        "ciudad": "Nápoles",
+        "traslado": "Tren Roma - Nápoles (Italo)",
+        "actividades": [
+          "Paseo por el Lungomare",
+          "Visita a Castel dell’Ovo",
+          "Recorrido por el Centro Histórico de Nápoles"
+        ]
+      },
+      {
+        "fecha": "2025-05-18",
+        "ciudad": "Costa Amalfitana",
+        "traslado": "Ferry Nápoles - Amalfi (ida y vuelta)",
+        "actividades": ["Excursión por Sorrento, Positano y Amalfi"]
+      },
+      {
+        "fecha": "2025-05-19",
+        "ciudad": "Nápoles",
+        "actividades": [
+          "Opción: Día libre en Nápoles",
+          "Opción: Excursión a Pompeya"
+        ]
+      },
+      {
+        "fecha": "2025-05-20",
+        "ciudad": "Venecia",
+        "traslado": "Tren Nápoles - Venecia (Italo)",
+        "actividades": [
+          "Piazza San Marco",
+          "Basílica de San Marco",
+          "Puente de Rialto"
+        ]
+      },
+      {
+        "fecha": "2025-05-21",
+        "ciudad": "Venecia",
+        "actividades": [
+          "Opcional: Murano y Burano",
+          "Paseo en góndola por los canales"
+        ]
+      },
+      {
+        "fecha": "2025-05-22",
+        "ciudad": "Florencia",
+        "traslado": "Tren Venecia - Florencia (Italo)",
+        "actividades": [
+          "Piazza della Signoria",
+          "Puente Vecchio",
+          "Galería Uffizi"
+        ]
+      },
+      {
+        "fecha": "2025-05-23",
+        "ciudad": "Florencia",
+        "actividades": [
+          "Catedral de Santa Maria del Fiore",
+          "Campanile de Giotto",
+          "Paseo por los Jardines de Boboli y Palacio Pitti",
+          "Atardecer en Piazzale Michelangelo"
+        ]
+      },
+      {
+        "fecha": "2025-05-24",
+        "ciudad": "Milán",
+        "imagen": "assets/img/milan.jpg",
+        "traslado": "Tren Florencia - Milán (Italo)",
+        "actividades": [
+          "Últimos paseos en Milán antes del vuelo",
+          "Traslado a Aeropuerto MXP"
+        ]
+      }
+    ]
+  }
+}
