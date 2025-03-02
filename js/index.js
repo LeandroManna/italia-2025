@@ -40,15 +40,9 @@ fetch("json/viaje_italia.json")
       const actividades = dia.actividades ? dia.actividades.join("<br>") : "";
       itinerarioContainer.innerHTML += `
                         <div class="col-md-4">
-                            <div class="card mb-3" onclick="mostrarModal('${
-                              dia.fecha
-                            } - ${dia.ciudad}', '${
-        dia.imagen
-      }','${actividades}')">
+                            <div class="card mb-3" onclick="mostrarModal('${dia.fecha} - ${dia.ciudad}', '${dia.imagen}','${actividades}')">
                                 <div class="card-body">
-                                    <h5 class="card-title">${dia.fecha} - ${
-        dia.ciudad
-      }</h5>
+                                    <h5 class="card-title">${dia.fecha} - ${dia.ciudad}</h5>
                                     <p class="card-text">${actividades
                                       .split("<br>")
                                       .slice(0, 2)
