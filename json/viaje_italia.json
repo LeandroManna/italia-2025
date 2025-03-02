@@ -11,16 +11,16 @@
         "origen": "Buenos Aires (AEP)",
         "escala": "São Paulo (GRU)",
         "destino": "Milán (MXP)",
-        "horario_salida": "10-05-2025 11:45",
-        "horario_llegada": "11-05-2025 10:15",
+        "horario_salida": "Sabado 10-05-2025 11:45",
+        "horario_llegada": "Domingo 11-05-2025 10:15",
         "imagen": "assets/img/avionlatam.jpg"
       },
       "regreso": {
         "origen": "Milán (MXP)",
         "escala": "São Paulo (GRU)",
         "destino": "Buenos Aires (AEP)",
-        "horario_salida": "24-05-2025 13:00",
-        "horario_llegada": "25-05-2025 10:30",
+        "horario_salida": "Sabado 24-05-2025 13:00",
+        "horario_llegada": "Domingo 11-05-2025 10:15",
         "imagen": "assets/img/avionlatam2.jpg"
       }
     },
@@ -28,33 +28,47 @@
       {
         "imagen": "assets/img/milan.jpg",
         "ciudad": "Milán",
-        "check_in": "2025-05-11",
-        "check_out": "2025-05-13",
-        "noches": 2
+        "check_in": "11-05-2025",
+        "check_out": "13-05-2025",
+        "noches": 2, 
+        "ubicacion": "Milano Centrale", 
+        "precio": ""
       },
       {
+        "imagen": "assets/img/roma.jpg",
         "ciudad": "Roma",
-        "check_in": "2025-05-13",
-        "check_out": "2025-05-17",
-        "noches": 4
+        "check_in": "13-05-2025",
+        "check_out": "17-05-2025",
+        "noches": 4, 
+        "ubicacion": "Roma Termini", 
+        "precio": ""
       },
       {
+        "imagen": "assets/img/napoles.jpg",
         "ciudad": "Nápoles",
-        "check_in": "2025-05-17",
-        "check_out": "2025-05-20",
-        "noches": 3
+        "check_in": "17-05-2025",
+        "check_out": "20-05-2025",
+        "noches": 3, 
+        "ubicacion": "", 
+        "precio": ""
       },
       {
+        "imagen": "assets/img/venecia.jpg",
         "ciudad": "Venecia",
-        "check_in": "2025-05-20",
-        "check_out": "2025-05-22",
-        "noches": 2
+        "check_in": "20-05-2025",
+        "check_out": "22-05-2025",
+        "noches": 2, 
+        "ubicacion": "", 
+        "precio": ""
       },
       {
+        "imagen": "assets/img/florencia.jpg",
         "ciudad": "Florencia",
-        "check_in": "2025-05-22",
-        "check_out": "2025-05-24",
-        "noches": 2
+        "check_in": "22-05-2025",
+        "check_out": "24-05-2025",
+        "noches": 2, 
+        "ubicacion": "", 
+        "precio": ""
       }
     ],
     "itinerario": [
@@ -83,12 +97,14 @@
       {
         "fecha": "2025-05-13",
         "ciudad": "Roma",
+        "imagen": "assets/img/roma.jpg",
         "traslado": "Tren Milán - Roma (Italo)",
         "actividades": ["Piazza Navona", "Panteón", "Fontana di Trevi"]
       },
       {
         "fecha": "2025-05-14",
         "ciudad": "Roma",
+        "imagen": "assets/img/roma.jpg",
         "evento_especial": "Cumpleaños de Mariela 🎂",
         "actividades": [
           "Colosseo",
@@ -100,6 +116,7 @@
       {
         "fecha": "2025-05-15",
         "ciudad": "Roma",
+        "imagen": "assets/img/roma.jpg",
         "actividades": [
           "Museos Vaticanos",
           "Capilla Sixtina",
@@ -110,14 +127,16 @@
       {
         "fecha": "2025-05-16",
         "ciudad": "Roma",
+        "imagen": "assets/img/roma.jpg",
         "actividades": [
           "Opción: Día de descanso y paseo por Villa Borghese",
           "Opción: Excursión a Ostia Antica o Vía Appia Antigua y Catacumbas"
         ]
       },
       {
-        "fecha": "2025-05-17",
+        "fecha": "17-05-2025",
         "ciudad": "Nápoles",
+        "imagen": "assets/img/napoles.jpg",
         "traslado": "Tren Roma - Nápoles (Italo)",
         "actividades": [
           "Paseo por el Lungomare",
@@ -128,12 +147,14 @@
       {
         "fecha": "2025-05-18",
         "ciudad": "Costa Amalfitana",
+        "imagen": "assets/img/napoles.jpg",
         "traslado": "Ferry Nápoles - Amalfi (ida y vuelta)",
         "actividades": ["Excursión por Sorrento, Positano y Amalfi"]
       },
       {
         "fecha": "2025-05-19",
         "ciudad": "Nápoles",
+        "imagen": "assets/img/napoles.jpg",
         "actividades": [
           "Opción: Día libre en Nápoles",
           "Opción: Excursión a Pompeya"
@@ -142,6 +163,7 @@
       {
         "fecha": "2025-05-20",
         "ciudad": "Venecia",
+        "imagen": "assets/img/venecia.jpg",
         "traslado": "Tren Nápoles - Venecia (Italo)",
         "actividades": [
           "Piazza San Marco",
@@ -152,6 +174,7 @@
       {
         "fecha": "2025-05-21",
         "ciudad": "Venecia",
+        "imagen": "assets/img/venecia.jpg",
         "actividades": [
           "Opcional: Murano y Burano",
           "Paseo en góndola por los canales"
@@ -160,6 +183,7 @@
       {
         "fecha": "2025-05-22",
         "ciudad": "Florencia",
+        "imagen": "assets/img/florencia.jpg",
         "traslado": "Tren Venecia - Florencia (Italo)",
         "actividades": [
           "Piazza della Signoria",
@@ -170,6 +194,7 @@
       {
         "fecha": "2025-05-23",
         "ciudad": "Florencia",
+        "imagen": "assets/img/florencia.jpg",
         "actividades": [
           "Catedral de Santa Maria del Fiore",
           "Campanile de Giotto",
