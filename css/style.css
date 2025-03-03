@@ -20,6 +20,18 @@ body {
     z-index: -2;
 }
 
+.encabezado {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo oscuro semi-transparente */
+    color: white; /* Texto blanco */
+    padding: 20px 0; /* Espaciado arriba y abajo */
+}
+
+.encabezado h1,
+.encabezado h2,
+.encabezado p {
+    color: white; /* Asegura que todo el texto sea blanco */
+}
+
 /* Imagen para dispositivos móviles */
 @media (max-width: 767px) {
     body {
@@ -39,17 +51,6 @@ body {
     border: 1px solid #ddd; /* Agrega un borde suave */
     border-radius: 8px; /* Redondear las esquinas */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
-}
-
-
-.titulo {
-    position: relative;
-    top: 0;
-    width: 100%;
-    background: rgba(0, 0, 0, 0.5); /* Fondo oscuro con transparencia */
-    color: white;
-    padding: 10px 0;
-    text-align: center;
 }
 
 /* Estilos para el footer */
