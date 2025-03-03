@@ -19,20 +19,19 @@ fetch("json/viaje_italia.json")
     });
 
     // Mostrar alojamientos
-    const alojamientoContainer = document.getElementById(
-      "alojamiento-container"
-    );
+    const alojamientoContainer = document.getElementById("alojamiento-container");
     viaje.alojamiento.forEach((aloja) => {
       alojamientoContainer.innerHTML += `
-                        <div class="col-md-4">
-                            <div class="card mb-3" onclick="mostrarModal('Alojamiento en ${aloja.ciudad}', '${aloja.imagen}', 'Check-in: ${aloja.check_in} <br> Check-out: ${aloja.check_out} <br> Noches: ${aloja.noches} <br> Ubicacion: ${aloja.ubicacion} <br> Precio: ${aloja.precio}')">
-                                <div class="card-body">
-                                    <h5 class="card-title">${aloja.ciudad}</h5>
-                                    <p class="card-text">${aloja.noches} noches</p>
-                                </div>
-                            </div>
-                        </div>`;
+          <div class="col-md-4">
+              <div class="card mb-3" onclick="mostrarModal('Alojamiento en ${aloja.ciudad}', '${aloja.imagen}', 'Check-in: ${aloja.check_in} <br> Check-out: ${aloja.check_out} <br> Noches: ${aloja.noches} <br> Ubicación: ${aloja.ubicacion} <br> <a href= ${aloja.link} target= ${aloja.target}>Link</a> <br> Precio: ${aloja.precio}')">
+                  <div class="card-body">
+                      <h5 class="card-title">${aloja.ciudad}</h5>
+                      <p class="card-text">${aloja.noches} noches</p>
+                  </div>
+              </div>
+          </div>`;
     });
+
 
     // Mostrar itinerario
     const itinerarioContainer = document.getElementById("itinerario-container");
