@@ -83,11 +83,10 @@ Para adaptar este proyecto a otro viaje:
 ## Posibles mejoras
 
 - Añadir un mapa interactivo para visualizar el recorrido completo
-- Implementar un contador regresivo para la fecha del viaje
+- Implementar un contador regresivo para la fecha del viaje `(Agregado)`
 - Agregar funcionalidad para guardar notas o comentarios por día
-- Desarrollar una versión offline como PWA
 - Integrar previsión meteorológica para cada destino
-- Añadir conversor de monedas local/euro
+- Añadir conversor de monedas euro/dolar `(Agregado)`
 
 ## Contribuciones
 
