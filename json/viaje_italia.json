@@ -87,6 +87,7 @@
         "ciudad": "Milán",
         "imagen": "assets/img/milan.jpg",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Llegada al Aeropuerto MXP",
           "Traslado al centro de Milán",
@@ -100,6 +101,7 @@
         "ciudad": "Milán",
         "imagen": "assets/img/milan.jpg",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Explorar el barrio Porta Nuova y Piazza Gae Aulenti",
           "Opcional: Excursión a Lago di Como",
@@ -110,7 +112,8 @@
         "fecha": "Martes 13",
         "ciudad": "Roma",
         "imagen": "assets/img/roma.jpg",
-        "traslado": "Tren Milán - Roma (Italo)",
+        "traslado": "Tren Milán - Roma (Italo) = 87,80 &euro;",
+        "tiempo": "3:15hs",
         "actividades": ["Piazza Navona", "Panteón", "Fontana di Trevi"]
       },
       {
@@ -119,6 +122,7 @@
         "imagen": "assets/img/roma.jpg",
         "evento_especial": "Cumpleaños de mi Amorcito 🎂",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Colosseo",
           "Foro Romano",
@@ -131,6 +135,7 @@
         "ciudad": "Roma",
         "imagen": "assets/img/roma.jpg",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Museos Vaticanos",
           "Capilla Sixtina",
@@ -143,6 +148,7 @@
         "ciudad": "Roma",
         "imagen": "assets/img/roma.jpg",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Opción: Día de descanso y paseo por Villa Borghese",
           "Opción: Excursión a Ostia Antica o Vía Appia Antigua y Catacumbas"
@@ -152,7 +158,8 @@
         "fecha": "Sabado 17",
         "ciudad": "Nápoles",
         "imagen": "assets/img/napoles.jpg",
-        "traslado": "Tren Roma - Nápoles (Italo)",
+        "traslado": "Tren Roma - Nápoles (Italo) = 42,80 &euro;",
+        "tiempo": "1:15hs",
         "actividades": [
           "Paseo por el Lungomare",
           "Visita a Castel dell’Ovo",
@@ -163,14 +170,19 @@
         "fecha": "Domingo 18",
         "ciudad": "Costa Amalfitana",
         "imagen": "assets/img/napoles.jpg",
-        "traslado": "Ferry Nápoles - Amalfi (ida y vuelta)",
-        "actividades": ["Excursión por Sorrento, Positano y Amalfi"]
+        "traslado": "Ferry Nápoles - Positano (ida y vuelta) = 230 &euro;",
+        "tiempo": "2:15hs",
+        "actividades": [
+          "Excursión por Sorrento", 
+          "Positano y Amalfi"
+        ]
       },
       {
         "fecha": "Lunes 19",
         "ciudad": "Nápoles",
         "imagen": "assets/img/napoles.jpg",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Opción: Día libre en Nápoles",
           "Opción: Excursión a Pompeya"
@@ -180,7 +192,8 @@
         "fecha": "Martes 20",
         "ciudad": "Venecia",
         "imagen": "assets/img/venecia.jpg",
-        "traslado": "Tren Nápoles - Venecia (Italo)",
+        "traslado": "Tren Nápoles - Venecia (Italo) = 71,80 &euro;",
+        "tiempo": "5:50hs",
         "actividades": [
           "Piazza San Marco",
           "Basílica de San Marco",
@@ -192,6 +205,7 @@
         "ciudad": "Venecia",
         "imagen": "assets/img/venecia.jpg",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Opcional: Murano y Burano",
           "Paseo en góndola por los canales"
@@ -201,7 +215,8 @@
         "fecha": "Jueves 22",
         "ciudad": "Florencia",
         "imagen": "assets/img/florencia.jpg",
-        "traslado": "Tren Venecia - Florencia (Italo)",
+        "traslado": "Tren Venecia - Florencia (Italo) = 35,80 &euro;",
+        "tiempo": "2:15hs",
         "actividades": [
           "Piazza della Signoria",
           "Puente Vecchio",
@@ -213,6 +228,7 @@
         "ciudad": "Florencia",
         "imagen": "assets/img/florencia.jpg",
         "traslado": "",
+        "tiempo": "",
         "actividades": [
           "Catedral de Santa Maria del Fiore",
           "Campanile de Giotto",
@@ -224,7 +240,8 @@
         "fecha": "Sabado 24",
         "ciudad": "Milán",
         "imagen": "assets/img/milan.jpg",
-        "traslado": "Tren Florencia - Milán (Italo)",
+        "traslado": "Tren Florencia - Milán (Italo) = 79,80 &euro;",
+        "tiempo": "1:55hs",
         "actividades": [
           "Últimos paseos en Milán antes del vuelo",
           "Traslado a Aeropuerto MXP"

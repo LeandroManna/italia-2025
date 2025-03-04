@@ -24,10 +24,15 @@ fetch("json/viaje_italia.json")
       alojamientoContainer.innerHTML += `
           <div class="col-md-4">
               <div class="card mb-3" onclick="mostrarModal('Alojamiento en ${aloja.ciudad}', '${aloja.imagen}', 'Check-in: ${aloja.check_in} <br> Check-out: ${aloja.check_out} <br> Noches: ${aloja.noches} <br> Ubicación: ${aloja.ubicacion} <br> <a href= ${aloja.link} target= ${aloja.target}>Link</a> <br> Precio: ${aloja.precio}')">
-                  <div class="card-body">
+                <div class="card-body d-flex align-items-center">
+                  <div class="flex-grow-1">
                       <h5 class="card-title">${aloja.ciudad}</h5>
-                      <p class="card-text">${aloja.noches} noches</p>
+                      <p class="card-text">${aloja.noches} noches <br> ${aloja.precio} total</p>
                   </div>
+                  <div>
+                      <img src="${aloja.imagen}" alt="${aloja.ciudad}" class="img-fluid rounded" style="width: 80px; height: 80px; object-fit: cover;">
+                  </div>
+                </div>
               </div>
           </div>`;
     });
@@ -39,7 +44,7 @@ fetch("json/viaje_italia.json")
       const actividades = dia.actividades ? dia.actividades.join("<br>") : "";
       itinerarioContainer.innerHTML += `
                         <div class="col-md-4">
-                            <div class="card mb-3" onclick="mostrarModal('${dia.fecha} - ${dia.ciudad}', '${dia.imagen}','${dia.traslado} <br> ${actividades}')">
+                            <div class="card mb-3" onclick="mostrarModal('${dia.fecha} - ${dia.ciudad}', '${dia.imagen}','${dia.traslado} <br> ${dia.tiempo} <br> ${actividades}')">
                                 <div class="card-body">
                                     <h5 class="card-title">${dia.fecha} - ${dia.ciudad}</h5>
                                     <p class="card-text">${actividades
