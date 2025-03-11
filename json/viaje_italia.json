@@ -8,8 +8,8 @@
     },
     "vuelos": {
       "ida": {
-        "sla": "Salida de Salta (SLA): Sabado 10-05-2025 03:35",
-        "aep": "Llega a Buenos Aires (AEP): Sabado 10-05-2025 05:40",
+        "sla": "<b>Salida de Salta (SLA):</b> Sabado 10-05-2025 03:35",
+        "aep": "<b>Llega a Buenos Aires (AEP):</b> Sabado 10-05-2025 05:40",
         "origen": "Buenos Aires (AEP)",
         "escala": "São Paulo (GRU)",
         "destino": "Milán (MXP)",
@@ -31,8 +31,8 @@
         "llegada_escala": "Sabado 24-05-2025 19:45",
         "salida_escala": "Domingo 25-05-2025 07:20",
         "horario_llegada": "Domingo 25-05-2025 10:30",
-        "sla2": "Llegada a Salta (SLA): Domingo 25-05-2025 14:25",
-        "aep2": "Salida de Buenos Aires (AEP): Domingo 25-05-2025 12:10",
+        "sla2": "<b>Llegada a Salta (SLA):</b> Domingo 25-05-2025 14:25",
+        "aep2": "<b>Salida de Buenos Aires (AEP):</b> Domingo 25-05-2025 12:10",
         "imagen": "assets/img/avionlatam2.jpg"
       }
     },
@@ -101,11 +101,11 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Llegada al Aeropuerto MXP",
-          "Traslado al centro de Milán",
-          "Visita al Duomo de Milán",
-          "Recorrido por Galleria Vittorio Emanuele II",
-          "Paseo por Castillo Sforzesco y Parco Sempione"
+          "Llegada al Aeropuerto de Milán-Malpensa (MXP) y trámites migratorios",
+          "Traslado en tren o taxi al centro de Milán para el check-in en el alojamiento",
+          "Visita al majestuoso Duomo de Milán y ascenso a su terraza para una vista panorámica",
+          "Recorrido por la elegante Galleria Vittorio Emanuele II y sus tiendas de lujo",
+          "Paseo por el imponente Castillo Sforzesco y relax en el Parco Sempione"
         ]
       },
       {
@@ -115,9 +115,9 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Explorar el barrio Porta Nuova y Piazza Gae Aulenti",
-          "Opcional: Excursión a Lago di Como",
-          "Cena en Brera o Navigli"
+          "Exploración del moderno barrio de Porta Nuova y visita a Piazza Gae Aulenti",
+          "Opcional: Excursión al Lago di Como, con paradas en Bellagio y Varenna",
+          "Cena en el bohemio barrio de Brera o junto a los canales de Navigli"
         ]
       },
       {
@@ -126,7 +126,11 @@
         "imagen": "assets/img/roma.jpg",
         "traslado": "Tren Milán - Roma (Italo) = 87,80 &euro;",
         "tiempo": "3:15hs",
-        "actividades": ["Piazza Navona", "Panteón", "Fontana di Trevi"]
+        "actividades": [
+          "Paseo por la encantadora Piazza Navona, una de las más bellas de Roma",
+          "Visita al Panteón, un templo romano con una impresionante cúpula",
+          "Descubrimiento de la icónica Fontana di Trevi y lanzamiento de monedas"
+        ]
       },
       {
         "fecha": "Miercoles 14",
@@ -136,10 +140,9 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Colosseo",
-          "Foro Romano",
-          "Palatino",
-          "Cena romántica en rooftop con vista al Vaticano o Coliseo"
+          "Exploración del imponente Coliseo Romano, testigo de la historia imperial",
+          "Recorrido por el Foro Romano y el Monte Palatino, cuna de la antigua Roma",
+          "Cena romántica en un rooftop con vistas al Vaticano o al Coliseo"
         ]
       },
       {
@@ -149,10 +152,9 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Museos Vaticanos",
-          "Capilla Sixtina",
-          "Basílica de San Pedro",
-          "Recorrido por Trastevere"
+          "Recorrido por los impresionantes Museos Vaticanos y la Capilla Sixtina",
+          "Visita a la majestuosa Basílica de San Pedro y ascenso a su cúpula",
+          "Paseo por el barrio bohemio de Trastevere y cena en una trattoria tradicional"
         ]
       },
       {
@@ -162,8 +164,9 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Opción: Día de descanso y paseo por Villa Borghese",
-          "Opción: Excursión a Ostia Antica o Vía Appia Antigua y Catacumbas"
+          "Opcion 1: Relajante paseo por Villa Borghese y visita a la Galería Borghese",
+          "Opcion 2: Excursión a Ostia Antica para conocer las antiguas ruinas romanas",
+          "Opcion 3: Exploración de la Vía Appia Antigua y sus catacumbas"
         ]
       },
       {
@@ -173,9 +176,9 @@
         "traslado": "Tren Roma - Nápoles (Italo) = 42,80 &euro;",
         "tiempo": "1:15hs",
         "actividades": [
-          "Paseo por el Lungomare",
-          "Visita a Castel dell’Ovo",
-          "Recorrido por el Centro Histórico de Nápoles"
+          "Paseo junto al mar en el hermoso Lungomare de Nápoles",
+          "Visita a Castel dell’Ovo, con impresionantes vistas de la bahía",
+          "Recorrido por el Centro Histórico de Nápoles y sus callejuelas pintorescas"
         ]
       },
       {
@@ -185,8 +188,8 @@
         "traslado": "Ferry Nápoles - Positano (ida y vuelta) = 230 &euro;",
         "tiempo": "2:15hs",
         "actividades": [
-          "Excursión por Sorrento", 
-          "Positano y Amalfi"
+          "Excursión por la espectacular Sorrento, con vistas al mar Tirreno",
+          "Recorrido por los coloridos pueblos de Positano y Amalfi"
         ]
       },
       {
@@ -196,8 +199,8 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Opción: Día libre en Nápoles",
-          "Opción: Excursión a Pompeya"
+          "Día libre en Nápoles para explorar la ciudad a tu ritmo, disfrutar de la gastronomía local y recorrer sus barrios emblemáticos.",
+          "Opcional: Excursión a las ruinas de Pompeya, una de las ciudades romanas mejor conservadas, donde podrás caminar entre sus antiguas calles y admirar frescos, templos y el Foro."
         ]
       },
       {
@@ -207,9 +210,10 @@
         "traslado": "Tren Nápoles - Venecia (Italo) = 71,80 &euro;",
         "tiempo": "5:50hs",
         "actividades": [
-          "Piazza San Marco",
-          "Basílica de San Marco",
-          "Puente de Rialto"
+          "Llegada a Venecia y primer contacto con la ciudad recorriendo sus canales y calles laberínticas.",
+          "Visita a la majestuosa Piazza San Marco, el corazón de la ciudad, rodeada de cafés históricos y animada por músicos callejeros.",
+          "Exploración de la Basílica de San Marco, una obra maestra del arte bizantino con mosaicos dorados y una vista panorámica desde su terraza.",
+          "Recorrido por el Puente de Rialto, el puente más famoso de Venecia, ideal para tomar fotos y disfrutar del ambiente veneciano."
         ]
       },
       {
@@ -219,8 +223,8 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Opcional: Murano y Burano",
-          "Paseo en góndola por los canales"
+          "Opcional: Excursión en vaporetto a las islas de Murano y Burano. En Murano, descubre el arte del vidrio soplado; en Burano, pasea entre sus coloridas casas de pescadores.",
+          "Relajante paseo en góndola por los canales venecianos, disfrutando de una perspectiva única de la ciudad."
         ]
       },
       {
@@ -230,9 +234,10 @@
         "traslado": "Tren Venecia - Florencia (Italo) = 35,80 &euro;",
         "tiempo": "2:15hs",
         "actividades": [
-          "Piazza della Signoria",
-          "Puente Vecchio",
-          "Galería Uffizi"
+          "Llegada a Florencia y recorrido por su centro histórico, lleno de arte renacentista y calles encantadoras.",
+          "Visita a la Piazza della Signoria, una de las plazas más importantes de la ciudad, rodeada de esculturas icónicas y el imponente Palazzo Vecchio.",
+          "Exploración del Puente Vecchio, el famoso puente medieval con sus joyerías y vistas al río Arno.",
+          "Recorrido por la Galería Uffizi, una de las pinacotecas más importantes del mundo, hogar de obras maestras de Botticelli, Da Vinci y Miguel Ángel."
         ]
       },
       {
@@ -242,10 +247,10 @@
         "traslado": "",
         "tiempo": "",
         "actividades": [
-          "Catedral de Santa Maria del Fiore",
-          "Campanile de Giotto",
-          "Paseo por los Jardines de Boboli y Palacio Pitti",
-          "Atardecer en Piazzale Michelangelo"
+          "Visita a la Catedral de Santa Maria del Fiore, con su impresionante cúpula diseñada por Brunelleschi.",
+          "Ascenso al Campanile de Giotto, desde donde se obtiene una vista panorámica de Florencia.",
+          "Recorrido por los Jardines de Boboli, un oasis verde detrás del Palacio Pitti, con esculturas renacentistas y vistas impresionantes.",
+          "Atardecer en Piazzale Michelangelo, el mejor mirador de la ciudad, ideal para cerrar el día con una vista inolvidable."
         ]
       },
       {
@@ -255,8 +260,8 @@
         "traslado": "Tren Florencia - Milán (Italo) = 79,80 &euro;",
         "tiempo": "1:55hs",
         "actividades": [
-          "Últimos paseos en Milán antes del vuelo",
-          "Traslado a Aeropuerto MXP"
+          "Últimos paseos en Milán antes del vuelo, oportunidad para hacer compras o visitar algún lugar pendiente.",
+          "Traslado al Aeropuerto MXP para tomar el vuelo de regreso."
         ]
       }
     ]
