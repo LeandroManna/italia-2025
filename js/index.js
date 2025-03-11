@@ -9,7 +9,7 @@ fetch("json/viaje_italia.json")
       const vuelo = viaje.vuelos[tipo];
       vuelosContainer.innerHTML += `
                         <div class="col-md-6">
-                            <div class="card mb-3" onclick="mostrarModal('Vuelo ${tipo}', '${vuelo.imagen}','De: ${vuelo.origen} <br> Escala: ${vuelo.escala} <br> A: ${vuelo.destino} <br> Salida: ${vuelo.horario_salida} <br> Llegada: ${vuelo.horario_llegada}')">
+                            <div class="card mb-3" onclick="mostrarModal('Vuelo ${tipo}', '${vuelo.imagen}','${vuelo.sla} <br> ${vuelo.aep} <br>Salida de ${vuelo.origen}: ${vuelo.horario_salida} <br> Llegada a ${vuelo.escala}: ${vuelo.llegada_escala} <br> Salida de ${vuelo.escala}: ${vuelo.salida_escala} <br> Llegada a ${vuelo.destino}: ${vuelo.horario_llegada} <br> ${vuelo.aep2} <br> ${vuelo.sla2}')">
                                 <div class="card-body">
                                     <h5 class="card-title">Vuelo ${tipo}</h5>
                                     <p class="card-text">Origen: ${vuelo.origen} - Destino: ${vuelo.destino}</p>

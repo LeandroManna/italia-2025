@@ -8,19 +8,31 @@
     },
     "vuelos": {
       "ida": {
+        "sla": "Salida de Salta (SLA): Sabado 10-05-2025 03:35",
+        "aep": "Llega a Buenos Aires (AEP): Sabado 10-05-2025 05:40",
         "origen": "Buenos Aires (AEP)",
         "escala": "São Paulo (GRU)",
         "destino": "Milán (MXP)",
         "horario_salida": "Sabado 10-05-2025 11:45",
+        "llegada_escala": "Sabado 10-05-2025 14:35",
+        "salida_escala": "Sabado 10-05-2025 18:00",
         "horario_llegada": "Domingo 11-05-2025 10:15",
+        "sla2": "",
+        "aep2": "",
         "imagen": "assets/img/avionlatam.jpg"
       },
       "regreso": {
+        "sla": "",
+        "aep": "",
         "origen": "Milán (MXP)",
         "escala": "São Paulo (GRU)",
         "destino": "Buenos Aires (AEP)",
         "horario_salida": "Sabado 24-05-2025 13:00",
+        "llegada_escala": "Sabado 24-05-2025 19:45",
+        "salida_escala": "Domingo 25-05-2025 07:20",
         "horario_llegada": "Domingo 25-05-2025 10:30",
+        "sla2": "Llegada a Salta (SLA): Domingo 25-05-2025 14:25",
+        "aep2": "Salida de Buenos Aires (AEP): Domingo 25-05-2025 12:10",
         "imagen": "assets/img/avionlatam2.jpg"
       }
     },
